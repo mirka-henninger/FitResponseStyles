@@ -37,3 +37,5 @@ rsconnect/
 
 # Custom
 man/*
+R/*
+data-raw/*

@@ -12,7 +12,8 @@ whichRev <- c(1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,69,52,55,58)
 simDat <- create_ratings(N = N, nItems = nItems, nDim = nDim, nDimC = nDimC, 
                          dimNames = dimNames, nCat = nCat, nItemsDim,
                          whichRev = whichRev)
-dat <- simDat$ratingdata
+
+dat <- simDat$ratingdata -1
 
 colnames(dat) <- c(
   paste0("neuro",1:12),

@@ -9,7 +9,7 @@ Authors@R:
 Description: Fit Divide-by-Total IRT models accounting for response styles from the psychometric literature (varying threshold and multidimensional models)
 License: MIT + file LICENSE
 ByteCompile: true
-Imports: knitr,kableExtra,languageR
+Imports: knitr,kableExtra,yaml,languageR
 Depends: dplyr,tidyr,TAM,Cairo, MBESS, truncnorm, MASS
 Encoding: UTF-8
 LazyData: true

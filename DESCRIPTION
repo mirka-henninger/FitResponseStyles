@@ -1,0 +1,16 @@
+Package: FitResponseStyles
+Title: Fit Divide-by-Total IRT models accounting for response styles
+Version: 0.1
+Authors@R: 
+    person(given = "Mirka",
+           family = "Henninger",
+           role = c("aut", "cre"),
+           email = "m.henninger@uni-mannheim.de")
+Description: Fit Divide-by-Total IRT models accounting for response styles from the psychometric literature (varying threshold and multidimensional models)
+License: MIT + file LICENSE
+ByteCompile: true
+Imports: knitr,kableExtra,languageR
+Depends: dplyr,tidyr,TAM,Cairo, MBESS, truncnorm, MASS
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

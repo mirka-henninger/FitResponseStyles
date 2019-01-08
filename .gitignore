@@ -36,5 +36,4 @@ vignettes/*.pdf
 rsconnect/
 
 # Custom
-data/*
 man/*

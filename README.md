@@ -12,7 +12,7 @@ Please adapt the modeling code to match your own data (number of items, number o
 The models for which code is provided here are:
 
 ## Models based on the response style literature (variants of Divide-by-total approaches)
-- Partial Credit Model (ignoring response styles)
+- Partial Credit Model (ignoring response styles, e.g., Masters 1982)
 - Random Threshold Model (Wang et al., 2006)
 - Generalized Random Threshold Model (adapted from Wang & Wu, 2011)
 - Multidimensional NRM with estimated scoring weights for response styles (Bolt & Johnson, 2009)

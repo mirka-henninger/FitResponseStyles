@@ -80,7 +80,7 @@ save(constrainedLoadings, file = "analysis/fitted/constrainedLoadings.Rda")
 rm(constrainedLoadings)
 
 
-# Fit constrained gen. multidimensional PCM Version 2 (only one discrimination parameter per RS dimension)
+# Fit constrained gen. multidimensional PCM Version with random discrimination parameters
 source("analysis/fit_models/fit_constrainedLoadingsRandom.R")
 save(constrainedLoadingsRandom, file = "analysis/fitted/constrainedLoadingsRandom.Rda")
 rm(constrainedLoadingsRandom)

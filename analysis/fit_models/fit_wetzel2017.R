@@ -27,6 +27,6 @@ B[, 3     , (nDim + 2)] <- 1 # MRS
 B[, c(4,5), (nDim + 3)] <- 1 # ARS
 
 # Fit model
-wetzel2017 <- tam.mml(temp, irtmodel ="PCM", B = B,
-                      control = controlList)
+wetzel2017 <- TAM::tam.mml(temp, irtmodel ="PCM", B = B,
+                           control = controlList)
 

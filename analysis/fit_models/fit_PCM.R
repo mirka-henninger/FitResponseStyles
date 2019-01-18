@@ -23,8 +23,8 @@ for (d in 1:nDim){
 
 
 # Fit model
-PCM <- tam.mml(temp, irtmodel ="PCM", B = B,
-               control = controlList)
+PCM <- TAM::tam.mml(temp, irtmodel ="PCM", B = B,
+                    control = controlList)
 
 
 

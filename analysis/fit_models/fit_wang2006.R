@@ -53,7 +53,7 @@ variance.fixed <- matrix(c(
   7,8,0,  7,9,0,
   8,9,0),ncol=3,byrow=TRUE)
 
-wang2006 <- tam.mml(resp=temp,
-                    B=B,
-                    variance.fixed=variance.fixed,
-                    control = controlList)
+wang2006 <- TAM::tam.mml(resp=temp,
+                         B=B,
+                         variance.fixed=variance.fixed,
+                         control = controlList)

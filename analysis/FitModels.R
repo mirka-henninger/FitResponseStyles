@@ -1,5 +1,5 @@
 # clear workspace
-rm(list=ls())
+# rm(list=ls())
 
 
 
@@ -87,6 +87,6 @@ rm(constrainedLoadingsRandom)
 
 
 save(temp, whichRev, file = "temp.rda")
-q()
+# q()
 
 

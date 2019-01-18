@@ -45,7 +45,8 @@ negationT <- negation %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 complexityT <- complexity %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 positionT <- position %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 
-designmatrixF <- data.frame(colnames(neoffi),negationT,complexityT,positionT)
+# designmatrixF <- data.frame(colnames(neoffi),negationT,complexityT,positionT)
+designmatrixF <- data.frame(colnames(dat),negationT,complexityT,positionT)
 designmatrix <- designmatrixF[,-1]
 
 factors <- designmatrix[!duplicated(designmatrix),]
@@ -83,7 +84,7 @@ nGammaF2016 <- nItems + nGammaRS + nGammaRS + 1 # drei Prädiktoren für ERS und
 E <- array(0, dim = c(nItems, nCat, nDimF2016, nGammaF2016)) # I x (K+1) x D x N
 
 # Trait
-for(d in 1:nDim){
+for (d in 1:nDim){
   for (k in 1:nCat){
     dim_i <- (nItemsDim * (d-1)+1) : (nItemsDim * d)
     for (i in dim_i){
@@ -116,7 +117,7 @@ variance.fixed <- matrix(c(
   7,7,1,
   8,8,1),ncol=3,byrow=TRUE)
 
-constrainedLoadings <- tam.mml.3pl(resp=temp,
-                                   E=E,
-                                   variance.fixed=variance.fixed,
-                                   control = controlList)
+constrainedLoadings <- TAM::tam.mml.3pl(resp=temp,
+                                        E=E,
+                                        variance.fixed=variance.fixed,
+                                        control = controlList)

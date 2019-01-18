@@ -39,9 +39,9 @@ gammaslope.fixed <- matrix(c(
 ), ncol=2,byrow=TRUE)
 
 
-flexibleARS <- tam.mml.3pl(resp=temp,
-                           E=E,
-                           gammaslope.fixed=gammaslope.fixed,
-                           control = controlList)
+flexibleARS <- TAM::tam.mml.3pl(resp=temp,
+                                E=E,
+                                gammaslope.fixed=gammaslope.fixed,
+                                control = controlList)
 
 

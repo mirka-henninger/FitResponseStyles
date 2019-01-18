@@ -1,12 +1,12 @@
 # FitResponseStyles
 
-FitResponseStyles is a repository containing modeling code using the R Package to fit Divide-by-Total modeling approaches accounting for response styles.
+FitResponseStyles is a repository containing modeling code using the R package TAM to fit Divide-by-Total modeling approaches accounting for response styles.
 Response styles, such as extreme, acquiescence, or mid response styles, are a potential source of bias when inferences are drawn from rating scale measurement. 
 
 ## Usage
-To use the modeling code, download and unzip the folder and open the R Project file. Using *devtools::load_all()*, you load the contents of the project. 
-In the data folder, you find a simulated dataset with the structure of the German Big Five questionnaire (NEO-FFI; 5 dimensions, 12 items per dimensions, some reversed coded items). With *data("dat")* and *data("which_rev")*, you can load the data and a vector containing the item numbers of reversed coded items in the generated data. 
-You can find a main R file "analysis/FitModels" that fits the single modeling files in the folder "analysis/fit_models/" using the R package TAM (Robitzsch, Kiefer, & Wu, 2017) and saves them in the folder "analysis/fitted". 
+To use the modeling code, download and unzip the folder and open the RStudio Project file. Using `devtools::load_all()`, you load the contents of the project. 
+In the data folder, you find a simulated data set with the structure of the German Big Five questionnaire (NEO-FFI; 5 dimensions, 12 items per dimensions, some reversed coded items). With `data("dat")` and `data("which_rev")`, you can load the data and a vector containing the item numbers of reversed coded items in the generated data. 
+You can find a main R file "analysis/FitModels.R" that fits the single modeling files in the folder "analysis/fit_models/" using the R package TAM (Robitzsch, Kiefer, & Wu, 2017) and saves them in the folder "analysis/fitted/". 
 Please adapt the modeling code to match your own data (number of items, number of dimensions, etc.). 
 
 The models for which code is provided here are:
@@ -23,7 +23,7 @@ The models for which code is provided here are:
 ## Modeling extensions proposed:
 - A model lifting equality constraints on scoring weights of ARS
 - A model putting equality restrictions on discrimination parameters based on dummy-coded item attributes
-- A model putting equality restrictions on discrimination parameteters randomly
+- A model putting equality restrictions on discrimination parameters randomly
 
 see also: 
 

@@ -74,7 +74,7 @@ variance.fixed <- matrix(c(
 
 
 # fit model
-wang2011 <- TAM::tam.mml.3pl(resp=temp,
+wang2011 <- TAM::tam.mml.3pl(resp=dat,
                              E=E,
                              variance.fixed=variance.fixed,
                              control = controlList)

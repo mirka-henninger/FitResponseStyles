@@ -41,7 +41,7 @@ variance.fixed <- matrix(c(
   7,7,1,
   8,8,1),ncol=3,byrow=TRUE)
 
-falk2016 <- TAM::tam.mml.3pl(resp=temp,
+falk2016 <- TAM::tam.mml.3pl(resp=dat,
                              E=E,
                              variance.fixed=variance.fixed,
                              control = controlList)

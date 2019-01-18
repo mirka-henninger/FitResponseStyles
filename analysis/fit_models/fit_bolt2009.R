@@ -60,7 +60,7 @@ gammaslope.fixed <- cbind(1,1)
 
 
 # fit model
-bolt2009 <- TAM::tam.mml.3pl(resp=temp,
+bolt2009 <- TAM::tam.mml.3pl(resp=dat,
                              E=E,
                              gammaslope.fixed = gammaslope.fixed,
                              variance.fixed=variance.fixed,

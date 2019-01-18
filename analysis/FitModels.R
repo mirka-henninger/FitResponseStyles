@@ -20,7 +20,7 @@ nThres <- nCat - 1
 # control list to fit models
 controlList <- list(snodes=1000,fac.oldxsi=0.4,max.increment=1.05,maxiter=4000)
 
-temp <- dat
+
 
 
 
@@ -86,7 +86,6 @@ save(constrainedLoadingsRandom, file = "analysis/fitted/constrainedLoadingsRando
 rm(constrainedLoadingsRandom)
 
 
-save(temp, whichRev, file = "temp.rda")
 # q()
 
 

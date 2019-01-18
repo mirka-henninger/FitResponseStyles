@@ -39,3 +39,4 @@ rsconnect/
 man/*
 R/*
 data-raw/*
+.Rproj.user

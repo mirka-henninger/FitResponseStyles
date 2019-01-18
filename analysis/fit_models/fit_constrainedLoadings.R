@@ -46,7 +46,7 @@ complexityT <- complexity %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 positionT <- position %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 
 
-designmatrixF <- data.frame(colnames(temp),negationT,complexityT,positionT)
+designmatrixF <- data.frame(colnames(dat),negationT,complexityT,positionT)
 designmatrix <- designmatrixF[,-1]
 
 factors <- designmatrix[!duplicated(designmatrix),]
@@ -117,7 +117,7 @@ variance.fixed <- matrix(c(
   7,7,1,
   8,8,1),ncol=3,byrow=TRUE)
 
-constrainedLoadings <- TAM::tam.mml.3pl(resp=temp,
+constrainedLoadings <- TAM::tam.mml.3pl(resp=dat,
                                         E=E,
                                         variance.fixed=variance.fixed,
                                         control = controlList)

@@ -34,7 +34,7 @@ for (i in 1:nItems){
 }
 
 
-bolt2014 <- TAM::tam.mml(resp=temp,
+bolt2014 <- TAM::tam.mml(resp=dat,
                          B=B,
                          control = controlList)
 

@@ -45,7 +45,8 @@ negationT <- negation %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 complexityT <- complexity %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 positionT <- position %>% matrix(., ncol=12, byrow=FALSE) %>% t() %>% c()
 
-designmatrixF <- data.frame(colnames(neoffi),negationT,complexityT,positionT)
+# designmatrixF <- data.frame(colnames(neoffi),negationT,complexityT,positionT)
+designmatrixF <- data.frame(colnames(dat),negationT,complexityT,positionT)
 designmatrix <- designmatrixF[,-1]
 
 factors <- designmatrix[!duplicated(designmatrix),]

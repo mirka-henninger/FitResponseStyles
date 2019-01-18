@@ -5,7 +5,7 @@ Response styles, such as extreme, acquiescence, or mid response styles, are a po
 
 ## Usage
 To use the modeling code, download and unzip the folder and open the RStudio Project file. Using `devtools::load_all()`, you load the contents of the project. 
-In the data folder, you find a simulated data set with the structure of the German Big Five questionnaire (NEO-FFI; 5 dimensions, 12 items per dimensions, some reversed coded items). With `data("dat")` and `data("which_rev")`, you can load the data and a vector containing the item numbers of reversed coded items in the generated data. 
+In the data folder, you find a simulated data set with the structure of the German Big Five questionnaire (NEO-FFI; 5 dimensions, 12 items per dimensions, some reversed coded items). With `data("dat")` and `data("whichRev")`, you can load the data and a vector containing the item numbers of reversed coded items in the generated data. 
 You can find a main R file "analysis/FitModels.R" that fits the single modeling files in the folder "analysis/fit_models/" using the R package TAM (Robitzsch, Kiefer, & Wu, 2017) and saves them in the folder "analysis/fitted/". 
 Please adapt the modeling code to match your own data (number of items, number of dimensions, etc.). 
 

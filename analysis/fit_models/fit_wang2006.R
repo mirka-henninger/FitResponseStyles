@@ -1,16 +1,16 @@
 
 # Fit Random Threshold Models (Wang et al, 2006) ---------------------------
 
-nDimW2009 <- nDim + nThres # number of dimensions in random threshold model (traits + random thresholds)
+nDimW2006 <- nDim + nThres # number of dimensions in random threshold model (traits + random thresholds)
 
 # cumulative scoring weights for random thresholds
-styleW2009 <- rbind(c(0,1,1,1,1),
+styleW2006 <- rbind(c(0,1,1,1,1),
                  c(0,0,1,1,1),
                  c(0,0,0,1,1),
                  c(0,0,0,0,1))
 
 # design matrix
-B <- array(0, dim = c(nItems,nCat,nDimW2009)) # I x (K+1) x D
+B <- array(0, dim = c(nItems,nCat,nDimW2006)) # I x (K+1) x D
 
 # Trait (fill in design matrix with scoring weights for the trait)
 for (d in 1:nDim){
@@ -30,7 +30,7 @@ for (d in 1:nDim){
 # Random Thresholds
 for (i in 1:nItems){
   for (d in 1:nThres){
-    B[i,,(nDim + d)] <- styleW2009[d,]
+    B[i,,(nDim + d)] <- styleW2006[d,]
   }
 }
 

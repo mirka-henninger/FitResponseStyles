@@ -2,7 +2,7 @@
 # Fit constrained loadings model ----------------------------------------------------------
 
 nDimF2016 <- nDim + nDimRS
-nGammaRS <- 7
+nGammaRS <- 8
 nGammaF2016 <- nItems + nGammaRS + nGammaRS + 1 # 1 gammaslope für ERS, MRS, ARS
 
 # Design matrix

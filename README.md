@@ -27,7 +27,9 @@ The models for which code is provided here are:
 
 see also: 
 
-Henninger, M. & Meiser, T. (2019). Different approaches to modeling response styles in Divide-by-Total IRT models: A model integration with extensions. Manuscript submitted for publication.
+Henninger, M. & Meiser, T. (2019). Different approaches to modeling response styles in Divide-by-Total IRT models (Part I): A model integration. Manuscript under review.
+
+Henninger, M. & Meiser, T. (2019). Different approaches to modeling response styles in Divide-by-Total IRT models (Part II): Applications with extensions. Manuscript under review.
 
 # References:
 Bolt, D. M., & Johnson, T. R. (2009). Addressing score bias and differential item functioning due to individual differences in response style. Applied Psychological Measurement, 33, 335–352. https://doi.org/10.1177/0146621608329891

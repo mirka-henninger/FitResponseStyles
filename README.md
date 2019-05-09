@@ -22,8 +22,8 @@ The models for which code is provided here are:
 
 ## Modeling extensions proposed:
 - A model lifting equality constraints on scoring weights of ARS
-- A model putting equality restrictions on discrimination parameters based on dummy-coded item attributes
-- A model putting equality restrictions on discrimination parameters randomly
+- A model with equality restrictions on discrimination parameters based on dummy-coded item attributes
+- A model with equality restrictions on discrimination parameters randomly
 
 see also: 
 

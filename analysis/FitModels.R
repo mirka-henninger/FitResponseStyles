@@ -18,7 +18,7 @@ nCat <- table(dat$neuro1) %>% length
 nThres <- nCat - 1
 
 # control list to fit models
-controlList <- list(snodes=1000,fac.oldxsi=0.4,max.increment=1.05,maxiter=4000)
+controlList <- list(snodes=2500,fac.oldxsi=0.4,max.increment=1.05,maxiter=4000)
 
 
 

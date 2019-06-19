@@ -13,6 +13,7 @@ The models for which code is provided here are:
 
 ## Models based on the response style literature (variants of Divide-by-total approaches)
 - Partial Credit Model (ignoring response styles, e.g., Masters 1982)
+- Generalized Partial Credit Model (ignoring response styles; with estimated discrimination parameters (Muraki, 1992)
 - Random Threshold Model (Wang et al., 2006)
 - Generalized Random Threshold Model (adapted from Wang & Wu, 2011)
 - Multidimensional NRM with estimated scoring weights for response styles (Bolt & Johnson, 2009)
@@ -41,6 +42,8 @@ Bolt, D. M., & Newton, J. R. (2011). Multiscale measurement of extreme response 
 Falk, C. F., & Cai, L. (2016). A flexible full-information approach to the modeling of response styles. Psychological Methods, 21, 328–347. https://doi.org/10.1037/met0000059
 
 Masters, G. N. (1982). A Rasch model for partial credit scoring. Psychometrika, 47, 149–174. https://doi.org/10.1007/BF02296272
+
+Muraki, E. (1992). A generalized Partial Credit Model: Application of an EM algorithm. Applied Psychological Measurement, 16, 159–176. https://doi.org/10.1177/014662169201600206
 
 Robitzsch, A., Kiefer, T., & Wu, M. (2017). TAM: Test analysis modules. R package version 2.8-21. https://CRAN.R-project.org/package=TAM
 
